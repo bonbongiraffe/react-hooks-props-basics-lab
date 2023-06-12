@@ -13,7 +13,7 @@ function App() {
     <div>
       <NavBar />
       <Home name={name} city={city} color={color}/>
-      <About bio={bio} links={links}/>
+      <About bio={bio} linkedin={links.linkedin} github={links.github}/>
     </div>
   );
 }
